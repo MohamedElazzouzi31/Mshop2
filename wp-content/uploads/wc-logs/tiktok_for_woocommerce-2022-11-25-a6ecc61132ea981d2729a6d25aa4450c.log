@@ -1,0 +1,31 @@
+2022-11-25T14:56:12+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_6380d78c0c94bhttpslocalhostMshop2wp-admin","smb_name":"PROD","redirect_url":"https:\/\/localhost\/Mshop2\/wp-admin\/"}
+
+2022-11-25T14:56:17+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received
+
+2022-11-25T14:56:17+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+X-Tt-Logid: 202211251456170102452421632201B37E,202211251456170102452421632201B37E
+x-tt-trace-host: 01eaad2d9c15584dec49bfba8ab94974d1e4a1ab90963557bb4356fde7ba2685d84f7356d001cffc327dd7ebead2a07098faa48f699e11a7ea94ac277747c0f31fba0b103d2956eeeca1b299b4d0081e87a8abd57f451403d8580344649074e5dc
+Content-Encoding: gzip
+Content-Length: 208
+X-Origin-Response-Time: 27,23.44.5.5
+X-Akamai-Request-ID: 618d4fc1.46d88f38
+Date: Fri, 25 Nov 2022 14:56:17 GMT
+X-Cache: TCP_MISS from a23-47-188-102.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-44-5-5.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=374, origin; dur=27
+Server-Timing: inner; dur=24
+X-Parent-Response-Time: 343,23.47.188.102
+
+{"code":0,"msg":"ok","data":{"app_secret":"9a03ef0e09a62657728b7c7d49bab6d3a8bfd5f1","redirect_uri":"https:\/\/localhost\/Mshop2\/wp-admin\/","external_data_key":"122e9ca9-aac9-4cae-9d69-95e779a25049","app_id":"7169967605589999617"}}
+
